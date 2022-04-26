@@ -1,8 +1,10 @@
+
+   
 [bybit]
 api_key =
 api_secret =
 
-; 0: �ռ� ���(�ռ� �ż�/�ռ� �ŵ�), 1: ���� �ɱ�(�� �ż�/�ŵ�), 2: �ո� �ɱ�(�� �ż�/�ŵ�)
+; 0: 롱숏 모두(롱숏 매수/롱숏 매도), 1: 숏만 걸기(숏 매수/매도), 2: 롱만 걸기(롱 매수/매도)
 order_option = 1
 
 symbol = XRPUSDT
@@ -12,7 +14,7 @@ limit_order_count_per_each_side = 20
 limit_order_quantity = 2
 sleep_after_order = 0.3
 
-; �ɼ� 1,2,3 �� �ϳ��� �����ϱ� ���� �ּ� �� �Ǵ� �� �������� ����
+; 옵션 1,2,3 중 하나를 수행하기 위한 최소 숏 또는 롱 포지션의 개수
 
 rebalance_quantity = 101
 minimum_position_balance_quantity = 99
@@ -20,5 +22,5 @@ maximum_position_balance_quantity = 105
 
 rebalance_option = 2
 
-; testnet ���� �׽�Ʈ�Ϸ��� `1` �� ������������ �����Ϸ��� `0` �� �Է��ϼ���
+; testnet 에서 테스트하려면 `1` 을 실제서버에서 실행하려면 `0` 을 입력하세요
 testnet = 1
