@@ -1,0 +1,24 @@
+[bybit]
+api_key =
+api_secret =
+
+; 0: �ռ� ���(�ռ� �ż�/�ռ� �ŵ�), 1: ���� �ɱ�(�� �ż�/�ŵ�), 2: �ո� �ɱ�(�� �ż�/�ŵ�)
+order_option = 1
+
+symbol = XRPUSDT
+order_gap = 0.0002
+start_price = 0
+limit_order_count_per_each_side = 20
+limit_order_quantity = 2
+sleep_after_order = 0.3
+
+; �ɼ� 1,2,3 �� �ϳ��� �����ϱ� ���� �ּ� �� �Ǵ� �� �������� ����
+
+rebalance_quantity = 101
+minimum_position_balance_quantity = 99
+maximum_position_balance_quantity = 105
+
+rebalance_option = 2
+
+; testnet ���� �׽�Ʈ�Ϸ��� `1` �� ������������ �����Ϸ��� `0` �� �Է��ϼ���
+testnet = 1
